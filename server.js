@@ -1,5 +1,9 @@
 'use strict';
 
+if (process.env.NOD_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
