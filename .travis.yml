@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: qe6lNjnPRzdtKIg435Lv8BF+PM2kRsZq8bW+fqbQCrN6sPTw+zL+2ggYEkyBNjHUo6DKr/Ya+nn6ZqNtSuk1Mw908sUqGFHenXrxUL5L08TloWOvx/Ac+dtR+UMbXCm1oxNVr63JrnGD9TPErZuS1D7AkVYRMEybUSfRAnhiATsXsf0MvnSu6FNFtyY4ro9Vqp3Kkwhtgca4FagPGdptEpKtFtRrB/XCMp7OWExZWhWEPnz9t2qkicJVo+tXbTY0MXCuFHnIN/mIpj9GacwLQH2TXxiT7bYN6XAx5GSN6B172XoeMMib/snDsKcpqSniVbpaM/2zSaCyQOJXtP2O4Tspaptr2ciNRJmKVoo7E420qEhDX7GaaabFcf9OS/J1h9b7bJbJJ+kcg4TxFQBqRrFDpIveKKcmNaM4z5m8Z2xC6oH+QwZlXiJueRj1Fg2JSMZFadrLxdW9aQCtjA53+mGI1EPJEyzAAbcLSmMtH9MHwLOw+xe/ZGjp81etfmeQ7xCpFSySQda9e6C1Cc0R7fx9goYWSLMVyVkrtkEc0AoJUur1BvWoP5GP2wMvtNe1I25VLqg9KFO0v5YC3MnGdgw3CGx8QI1CviWdTLz+5DLBkennivznAVDKYMT7G46/pgzy038J0qzbrOaY5aOENljGSL7Uq+Qa++H4wKFe+1M=
+  app: thinkful-mongoose-blog-232
+  on:
+    repo: jbvance/thinkful-mongoose-blog-challenge-2-3-2
